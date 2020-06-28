@@ -1,0 +1,8 @@
+{
+    "python.pythonPath": "/nix/store/q732h09azy7lf0j30bnnhdl15p4rxpdy-python3-3.7.7/bin/python",
+    "python.linting.pylintPath": "/nix/store/a4k2i7di4738c8pcmcch21vrzvkjwz75-python3.7-pylint-2.4.4/bin/pylint",
+    "python.linting.pylintEnabled": true,
+    "python.linting.enabled": true,
+    "python.linting.banditEnabled": false,
+    "nixEnvSelector.nixShellConfig": "${workspaceRoot}/pycrawler-shell.nix"
+}
